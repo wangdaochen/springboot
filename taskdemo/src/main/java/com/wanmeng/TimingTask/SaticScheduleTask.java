@@ -27,7 +27,7 @@ public class SaticScheduleTask {
      //提交上游的数据
     //2.浠诲姟鎵ц鐨勬椂闂�
 
-      //测试成功          ceshi   branch122222
+      //测试成功          ceshi   branch122222 
  
     @Scheduled(cron="0 24 16 * * ?")
     public  void work (){

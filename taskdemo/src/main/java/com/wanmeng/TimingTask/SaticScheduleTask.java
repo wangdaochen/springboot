@@ -26,7 +26,7 @@ import java.time.LocalDateTime;
 public class SaticScheduleTask {
     //1.闇�瑕佺煡閬撴墽琛岀殑浠诲姟
     //2.浠诲姟鎵ц鐨勬椂闂�
-      //测试成功          ceshi 
+      //测试成功          ceshi   来吧冲突
     @Scheduled(cron="0 24 16 * * ?")
     public  void work (){
         System.out.println("瀹炶返鍑虹湡鐭�" + LocalDateTime.now());

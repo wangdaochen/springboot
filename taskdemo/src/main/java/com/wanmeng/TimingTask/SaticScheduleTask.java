@@ -24,6 +24,7 @@ import java.time.LocalDateTime;
 @EnableAutoConfiguration
 @ComponentScan(basePackages = "com.wanmeng.TimingTask.*" )
 public class SaticScheduleTask {
+    //提交上游的数据
     //1.闇�瑕佺煡閬撴墽琛岀殑浠诲姟
     //2.浠诲姟鎵ц鐨勬椂闂�
 

@@ -27,7 +27,7 @@ public class SaticScheduleTask {
     //1.闇�瑕佺煡閬撴墽琛岀殑浠诲姟
     //2.浠诲姟鎵ц鐨勬椂闂�
 
-      //测试成功          ceshi   来吧冲突    操 啊啊啊啊啊啊
+      //测试成功          ceshi   branch1
  
     @Scheduled(cron="0 24 16 * * ?")
     public  void work (){

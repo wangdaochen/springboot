@@ -13,13 +13,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TaskdemoApplication {
 
 	public static void main(String[] args) {
+	    //确定可以提交相关的代码吗？   encoding 编码
 		SpringApplication.run(DynamicScheduleTask.class, args);
 //		Timer timer = new Timer();
-//		//创建需要执行的任务
+//		//鍒涘缓闇�瑕佹墽琛岀殑浠诲姟
 //		TimerTask timerTask = new TimerTask() {
 //			@Override
 //			public void run() {
-//				System.out.println("是否不能执行");
+//				System.out.println("鏄惁涓嶈兘鎵ц");
 //			}
 //		};
 //
@@ -39,7 +40,7 @@ public class TaskdemoApplication {
 //
 //		long  time =timerTask.scheduledExecutionTime();
 //
-//		System.out.println("执行的时间："+time);
+//		System.out.println("鎵ц鐨勬椂闂达細"+time);
 
 	}
 
